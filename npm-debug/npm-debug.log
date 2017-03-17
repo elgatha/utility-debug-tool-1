@@ -1,0 +1,86 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/apple/.nvm/versions/node/v7.7.2/bin/node',
+1 verbose cli   '/Users/apple/.nvm/versions/node/v7.7.2/bin/npm',
+1 verbose cli   'publish' ]
+2 info using npm@4.1.2
+3 info using node@v7.7.2
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   escapedName: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: '/Users/apple/thisiselgatha',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /Users/apple/.npm/utility-debug-tool/1.0.0/package.tgz not in flight; packing
+9 verbose correctMkdir /Users/apple/.npm correctMkdir not in flight; initializing
+10 info lifecycle utility-debug-tool@1.0.0~prepublish: utility-debug-tool@1.0.0
+11 silly lifecycle utility-debug-tool@1.0.0~prepublish: no script for prepublish, continuing
+12 info lifecycle utility-debug-tool@1.0.0~prepare: utility-debug-tool@1.0.0
+13 silly lifecycle utility-debug-tool@1.0.0~prepare: no script for prepare, continuing
+14 verbose tar pack [ '/Users/apple/.npm/utility-debug-tool/1.0.0/package.tgz',
+14 verbose tar pack   '/Users/apple/thisiselgatha' ]
+15 verbose tarball /Users/apple/.npm/utility-debug-tool/1.0.0/package.tgz
+16 verbose folder /Users/apple/thisiselgatha
+17 verbose addLocalTarball adding from inside cache /Users/apple/.npm/utility-debug-tool/1.0.0/package.tgz
+18 verbose correctMkdir /Users/apple/.npm correctMkdir not in flight; initializing
+19 silly cache afterAdd utility-debug-tool@1.0.0
+20 verbose afterAdd /Users/apple/.npm/utility-debug-tool/1.0.0/package/package.json not in flight; writing
+21 verbose correctMkdir /Users/apple/.npm correctMkdir not in flight; initializing
+22 verbose afterAdd /Users/apple/.npm/utility-debug-tool/1.0.0/package/package.json written
+23 silly publish { name: 'utility-debug-tool',
+23 silly publish   version: '1.0.0',
+23 silly publish   main: 'src/server.js',
+23 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+23 silly publish   repository:
+23 silly publish    { type: 'git',
+23 silly publish      url: 'git+https://github.com/elgatha/utility-debug-tool.git' },
+23 silly publish   author: { name: 'Elgatha Lee', email: 'appleelgatha@fullsail.edu' },
+23 silly publish   license: 'ISC',
+23 silly publish   bugs: { url: 'https://github.com/elgatha/utility-debug-tool/issues' },
+23 silly publish   homepage: 'https://github.com/elgatha/utility-debug-tool#readme',
+23 silly publish   description: '',
+23 silly publish   readme: 'ERROR: No README data found!',
+23 silly publish   _id: 'utility-debug-tool@1.0.0',
+23 silly publish   _shasum: '8e889581fe281e930e4dc45781c76d70ce7b3f58',
+23 silly publish   _from: '.' }
+24 info lifecycle utility-debug-tool@1.0.0~prepublishOnly: utility-debug-tool@1.0.0
+25 silly lifecycle utility-debug-tool@1.0.0~prepublishOnly: no script for prepublishOnly, continuing
+26 verbose getPublishConfig undefined
+27 silly mapToRegistry name utility-debug-tool
+28 silly mapToRegistry using default registry
+29 silly mapToRegistry registry https://registry.npmjs.org/
+30 silly mapToRegistry data Result {
+30 silly mapToRegistry   raw: 'utility-debug-tool',
+30 silly mapToRegistry   scope: null,
+30 silly mapToRegistry   escapedName: 'utility-debug-tool',
+30 silly mapToRegistry   name: 'utility-debug-tool',
+30 silly mapToRegistry   rawSpec: '',
+30 silly mapToRegistry   spec: 'latest',
+30 silly mapToRegistry   type: 'tag' }
+31 silly mapToRegistry uri https://registry.npmjs.org/utility-debug-tool
+32 verbose publish registryBase https://registry.npmjs.org/
+33 silly publish uploading /Users/apple/.npm/utility-debug-tool/1.0.0/package.tgz
+34 verbose stack Error: auth required for publishing
+34 verbose stack     at CachingRegistryClient.publish (/Users/apple/.nvm/versions/node/v7.7.2/lib/node_modules/npm/node_modules/npm-registry-client/lib/publish.js:30:14)
+34 verbose stack     at /Users/apple/.nvm/versions/node/v7.7.2/lib/node_modules/npm/lib/publish.js:137:14
+34 verbose stack     at mapToRegistry (/Users/apple/.nvm/versions/node/v7.7.2/lib/node_modules/npm/lib/utils/map-to-registry.js:62:3)
+34 verbose stack     at publish_ (/Users/apple/.nvm/versions/node/v7.7.2/lib/node_modules/npm/lib/publish.js:108:3)
+34 verbose stack     at Array.<anonymous> (/Users/apple/.nvm/versions/node/v7.7.2/lib/node_modules/npm/node_modules/slide/lib/bind-actor.js:15:8)
+34 verbose stack     at LOOP (/Users/apple/.nvm/versions/node/v7.7.2/lib/node_modules/npm/node_modules/slide/lib/chain.js:15:14)
+34 verbose stack     at /Users/apple/.nvm/versions/node/v7.7.2/lib/node_modules/npm/node_modules/slide/lib/chain.js:18:7
+34 verbose stack     at done (/Users/apple/.nvm/versions/node/v7.7.2/lib/node_modules/npm/lib/utils/lifecycle.js:132:5)
+34 verbose stack     at LOOP (/Users/apple/.nvm/versions/node/v7.7.2/lib/node_modules/npm/node_modules/slide/lib/chain.js:7:26)
+34 verbose stack     at /Users/apple/.nvm/versions/node/v7.7.2/lib/node_modules/npm/node_modules/slide/lib/chain.js:18:7
+35 verbose cwd /Users/apple/thisiselgatha
+36 error Darwin 16.3.0
+37 error argv "/Users/apple/.nvm/versions/node/v7.7.2/bin/node" "/Users/apple/.nvm/versions/node/v7.7.2/bin/npm" "publish"
+38 error node v7.7.2
+39 error npm  v4.1.2
+40 error code ENEEDAUTH
+41 error need auth auth required for publishing
+42 error need auth You need to authorize this machine using `npm adduser`
+43 verbose exit [ 1, true ]

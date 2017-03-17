@@ -1,0 +1,132 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/apple/.nvm/versions/node/v7.7.2/bin/node',
+1 verbose cli   '/Users/apple/.nvm/versions/node/v7.7.2/bin/npm',
+1 verbose cli   'publish',
+1 verbose cli   './' ]
+2 info using npm@4.1.2
+3 info using node@v7.7.2
+4 verbose publish [ './' ]
+5 silly cache add args [ './', null ]
+6 verbose cache add spec ./
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: './',
+7 silly cache add   scope: null,
+7 silly cache add   escapedName: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: './',
+7 silly cache add   spec: '/Users/apple/utility-debug-tool',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /Users/apple/.npm/utility-debug-tool/1.0.0/package.tgz not in flight; packing
+9 verbose correctMkdir /Users/apple/.npm correctMkdir not in flight; initializing
+10 info lifecycle utility-debug-tool@1.0.0~prepublish: utility-debug-tool@1.0.0
+11 silly lifecycle utility-debug-tool@1.0.0~prepublish: no script for prepublish, continuing
+12 info lifecycle utility-debug-tool@1.0.0~prepare: utility-debug-tool@1.0.0
+13 silly lifecycle utility-debug-tool@1.0.0~prepare: no script for prepare, continuing
+14 verbose tar pack [ '/Users/apple/.npm/utility-debug-tool/1.0.0/package.tgz',
+14 verbose tar pack   '/Users/apple/utility-debug-tool' ]
+15 verbose tarball /Users/apple/.npm/utility-debug-tool/1.0.0/package.tgz
+16 verbose folder /Users/apple/utility-debug-tool
+17 verbose addLocalTarball adding from inside cache /Users/apple/.npm/utility-debug-tool/1.0.0/package.tgz
+18 verbose correctMkdir /Users/apple/.npm correctMkdir not in flight; initializing
+19 silly cache afterAdd utility-debug-tool@1.0.0
+20 verbose afterAdd /Users/apple/.npm/utility-debug-tool/1.0.0/package/package.json not in flight; writing
+21 verbose correctMkdir /Users/apple/.npm correctMkdir not in flight; initializing
+22 verbose afterAdd /Users/apple/.npm/utility-debug-tool/1.0.0/package/package.json written
+23 silly publish { name: 'utility-debug-tool',
+23 silly publish   version: '1.0.0',
+23 silly publish   description: 'created by Elgatha Lee for WDD program at Full Sail University.',
+23 silly publish   main: 'gulpfile.js',
+23 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+23 silly publish   keywords: [],
+23 silly publish   author: { name: 'Elgatha Lee', email: 'appleelgatha@fullsail.edu' },
+23 silly publish   license: 'ISC',
+23 silly publish   dependencies:
+23 silly publish    { 'body-parser': '^1.17.1',
+23 silly publish      chalk: '^1.1.3',
+23 silly publish      express: '^4.15.2',
+23 silly publish      gulp: '^3.9.1',
+23 silly publish      mysql: '^2.13.0',
+23 silly publish      sequelize: '^3.30.2' },
+23 silly publish   devDependencies:
+23 silly publish    { chai: '^3.5.0',
+23 silly publish      dotenv: '^4.0.0',
+23 silly publish      expect: '^1.20.2',
+23 silly publish      gulp: '^3.9.1',
+23 silly publish      'gulp-git': '^2.0.1',
+23 silly publish      'gulp-minify': '0.0.15',
+23 silly publish      mocha: '^3.2.0',
+23 silly publish      supertest: '^3.0.0',
+23 silly publish      yargs: '^7.0.2' },
+23 silly publish   repository:
+23 silly publish    { type: 'git',
+23 silly publish      url: 'git+https://github.com/elgatha/utility-debug-tool.git' },
+23 silly publish   bugs: { url: 'https://github.com/elgatha/utility-debug-tool/issues' },
+23 silly publish   homepage: 'https://github.com/elgatha/utility-debug-tool#readme',
+23 silly publish   directories: { test: 'test' },
+23 silly publish   readme: '# Utility Debug Tool\n created by Elgatha Lee for WDD program at Full Sail University.\n\n\n# Installation\n\nTo install from npmjs.org: with utility-debug-tool\n\nIn TERMINAL "npm -i utility-debug-tool --save dev"\n\n#Usage\n\nTo utilize debug tool add "DEBUG=true nodemon src/server.js"',
+23 silly publish   readmeFilename: 'README.md',
+23 silly publish   gitHead: '19fb4a1d90039908a9ef739f35da9f572ab7b9cb',
+23 silly publish   _id: 'utility-debug-tool@1.0.0',
+23 silly publish   _shasum: '23450d4a5b4629306ba8e0da1ac453edafdb1769',
+23 silly publish   _from: '.' }
+24 info lifecycle utility-debug-tool@1.0.0~prepublishOnly: utility-debug-tool@1.0.0
+25 silly lifecycle utility-debug-tool@1.0.0~prepublishOnly: no script for prepublishOnly, continuing
+26 verbose getPublishConfig undefined
+27 silly mapToRegistry name utility-debug-tool
+28 silly mapToRegistry using default registry
+29 silly mapToRegistry registry https://registry.npmjs.org/
+30 silly mapToRegistry data Result {
+30 silly mapToRegistry   raw: 'utility-debug-tool',
+30 silly mapToRegistry   scope: null,
+30 silly mapToRegistry   escapedName: 'utility-debug-tool',
+30 silly mapToRegistry   name: 'utility-debug-tool',
+30 silly mapToRegistry   rawSpec: '',
+30 silly mapToRegistry   spec: 'latest',
+30 silly mapToRegistry   type: 'tag' }
+31 silly mapToRegistry uri https://registry.npmjs.org/utility-debug-tool
+32 verbose publish registryBase https://registry.npmjs.org/
+33 silly publish uploading /Users/apple/.npm/utility-debug-tool/1.0.0/package.tgz
+34 verbose request uri https://registry.npmjs.org/utility-debug-tool
+35 verbose request sending authorization for write operation
+36 info attempt registry request try #1 at 8:20:18 PM
+37 verbose request using bearer token for auth
+38 verbose request id f16a533afec6860b
+39 http request PUT https://registry.npmjs.org/utility-debug-tool
+40 http 403 https://registry.npmjs.org/utility-debug-tool
+41 verbose headers { 'content-type': 'application/json',
+41 verbose headers   'cache-control': 'max-age=300',
+41 verbose headers   'content-length': '128',
+41 verbose headers   'accept-ranges': 'bytes',
+41 verbose headers   date: 'Fri, 17 Mar 2017 03:20:20 GMT',
+41 verbose headers   via: '1.1 varnish',
+41 verbose headers   connection: 'keep-alive',
+41 verbose headers   'x-served-by': 'cache-lax8641-LAX',
+41 verbose headers   'x-cache': 'MISS',
+41 verbose headers   'x-cache-hits': '0',
+41 verbose headers   'x-timer': 'S1489720819.066817,VS0,VE1042',
+41 verbose headers   vary: 'Accept-Encoding' }
+42 verbose request invalidating /Users/apple/.npm/registry.npmjs.org/utility-debug-tool on PUT
+43 error publish Failed PUT 403
+44 verbose stack Error: "You cannot publish over the previously published version 1.0.0. Try bumping the version to 2.0.0" : utility-debug-tool
+44 verbose stack     at makeError (/Users/apple/.nvm/versions/node/v7.7.2/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:304:12)
+44 verbose stack     at CachingRegistryClient.<anonymous> (/Users/apple/.nvm/versions/node/v7.7.2/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:292:14)
+44 verbose stack     at Request._callback (/Users/apple/.nvm/versions/node/v7.7.2/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:212:14)
+44 verbose stack     at Request.self.callback (/Users/apple/.nvm/versions/node/v7.7.2/lib/node_modules/npm/node_modules/request/request.js:186:22)
+44 verbose stack     at emitTwo (events.js:106:13)
+44 verbose stack     at Request.emit (events.js:194:7)
+44 verbose stack     at Request.<anonymous> (/Users/apple/.nvm/versions/node/v7.7.2/lib/node_modules/npm/node_modules/request/request.js:1081:10)
+44 verbose stack     at emitOne (events.js:96:13)
+44 verbose stack     at Request.emit (events.js:191:7)
+44 verbose stack     at IncomingMessage.<anonymous> (/Users/apple/.nvm/versions/node/v7.7.2/lib/node_modules/npm/node_modules/request/request.js:1001:12)
+45 verbose statusCode 403
+46 verbose pkgid utility-debug-tool
+47 verbose cwd /Users/apple/utility-debug-tool
+48 error Darwin 16.3.0
+49 error argv "/Users/apple/.nvm/versions/node/v7.7.2/bin/node" "/Users/apple/.nvm/versions/node/v7.7.2/bin/npm" "publish" "./"
+50 error node v7.7.2
+51 error npm  v4.1.2
+52 error code E403
+53 error "You cannot publish over the previously published version 1.0.0. Try bumping the version to 2.0.0" : utility-debug-tool
+54 error If you need help, you may report this error at:
+54 error     <https://github.com/npm/npm/issues>
+55 verbose exit [ 1, true ]

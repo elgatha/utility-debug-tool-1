@@ -1,6 +1,6 @@
 {
   "name": "utility-debug-tool",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "created by Elgatha Lee for WDD program at Full Sail University.",
   "main": "gulpfile.js",
   "scripts": {
